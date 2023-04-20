@@ -1,0 +1,191 @@
+/**
+  |============================
+  | Basic styles
+  |============================
+*/
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --third-text-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --accent-text-color: #f4f4fd;
+  --logo-text-color: #4d5ae5;
+  --primary-background: #ffffff;
+  --secondary-background: #f4f4fd;
+  --footer-background: #2e2f42;
+  --button-active: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/**
+  |============================
+  | Header Styles
+  |============================
+*/
+.logo {
+  color: var(--logo-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-header {
+  color: var(--secondary-text-color);
+}
+
+.nav-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address-link {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--button-active);
+}
+
+/**
+  |================================
+  | Hero Styles
+  |================================
+*/
+.hero {
+  background-color: var(--footer-background);
+}
+
+.hero-title {
+  color: var(--third-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/**
+  |================================
+  | Button Styles
+  |================================
+*/
+.button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--third-text-color);
+  background-color: var(--logo-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-portfolio {
+  font-family: 'Roboto', sans-serif;
+  color: var(--logo-text-color);
+  background-color: var(--secondary-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--third-text-color);
+  background-color: var(--button-active);
+}
+
+.text-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title {
+  color: var(--secondary-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team {
+  background-color: var(--secondary-background);
+}
+
+.card {
+  background-color: var(--primary-background);
+}
+
+/**
+  |================================
+  | Footer Styles
+  |================================
+*/
+
+.footer {
+  background-color: var(--footer-background);
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.footer .text {
+  color: var(--footer-text-color);
+}
