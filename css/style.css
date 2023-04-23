@@ -177,7 +177,7 @@ body {
   border: none;
 }
 .hero-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .adventages {
   padding: 120px 0;
