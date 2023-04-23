@@ -318,6 +318,7 @@ body {
 }
 
 .team {
+  padding-bottom: 120px;
   background-color: var(--secondary-background);
 }
 
