@@ -229,7 +229,7 @@ body {
   display: flex;
   gap: 24;
 }
-.team.card {
+.team-card {
   width: calc((100% - 72px) / 4);
 }
 /**
