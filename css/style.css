@@ -74,6 +74,7 @@ body {
 .header.container {
   outline: 5px solid tomato;
   display: flex;
+  margin: 0 auto;
   align-items: center;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -179,13 +180,14 @@ body {
   width: 264px;
 }
 .adventages {
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .adventages.list {
   outline: 5px solid tomato;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 24px;
 }
 .examples {
   margin-bottom: 120px;
