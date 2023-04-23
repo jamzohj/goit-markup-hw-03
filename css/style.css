@@ -190,7 +190,7 @@ body {
   gap: 24px;
 }
 .examples {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .example.title {
   outline: 5px solid tomato;
