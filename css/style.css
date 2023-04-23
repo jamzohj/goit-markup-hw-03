@@ -339,16 +339,15 @@ body {
   background-color: var(--footer-background);
   outline: 5px solid tomato;
 }
-
+.logo-only-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-footer {
   color: #f4f4fd;
 }
 .footer-text {
-  margin-top: 16px;
+  max-width: 264px;
   color: var(--footer-text-color);
 }
 
-.footer-text-container {
-  width: 264px;
-  outline: 5px solid tomato;
-}
