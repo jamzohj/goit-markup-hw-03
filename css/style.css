@@ -124,7 +124,6 @@ body {
   gap: 40px;
 }
 .address-link {
-  margin-right: 40px;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -175,12 +174,14 @@ body {
   border: none;
 }
 .hero-item {
+  text-decoration: none;
   width: calc((100% - 72px) / 4);
 }
 .adventages {
   padding: 120px 0;
 }
-.adventages.list {
+.adventages-list {
+  list-style: none;
   outline: 5px solid tomato;
   display: flex;
   flex-direction: row;
@@ -213,18 +214,20 @@ body {
   padding-bottom: 120px;
 }
 
-.team.title {
+.title {
   margin-bottom: 72px;
 }
 .team-text {
   text-align: center;
   padding: 32px 16px;
 }
-.team.list {
+.team-list {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
 .team-card {
+  background-color: var(--primary-background);
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
 }
